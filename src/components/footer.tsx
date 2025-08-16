@@ -8,7 +8,7 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className="border-t py-6 md:py-8">
-      <div className="container flex flex-col items-center justify-center text-center">
+      <div className="container flex flex-col items-center justify-center text-center max-w-full">
         <p className="text-sm text-muted-foreground">
           &copy; {currentYear} {portfolioData.company}. All rights reserved.
         </p>

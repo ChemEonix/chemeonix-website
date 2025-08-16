@@ -13,7 +13,7 @@ import { BookOpen } from "lucide-react";
 export const PublicationsSection = () => {
   return (
     <section id="publications" className="py-16 md:py-14">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-full">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -41,11 +41,11 @@ export const PublicationsSection = () => {
                     >
                       <BookOpen className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                       <p className="text-muted-foreground">
-                        {publication.authors}
+                        {publication.authors}{" "}
                         <span className="font-semibold text-foreground">
-                          {publication.title}
+                          {publication.title}{" "}
                         </span>
-                        <em className="text-primary">{publication.journal}</em>
+                        <em className="text-primary">{publication.journal} </em>
                         {publication.citation}
                       </p>
                     </motion.li>
