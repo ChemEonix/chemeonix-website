@@ -105,7 +105,7 @@ export const portfolioData = {
       role: "Lead Engineer (Contract)",
       duration: "June 2024 - July 2025",
       description:
-        "Architected and delivered a full-stack web platform for multi-objective formulation optimization. Developed a proprietary algorithm to automate neural network architecture search for sparse, high-dimensional data. Achieved 80% predictive accuracy, delivering a functional MVP that led to a formal case study with Trelleborg.",
+        "Architected and delivered a full-stack web platform for multi-objective formulation optimization. Developed a proprietary algorithm to automate neural network architecture search for sparse, high-dimensional data. Achieved 80% predictive accuracy, delivering a functional MVP that led to a formal case study with a major industrial partner.",
       skills: [
         "Project Leadership",
         "Full-Stack Development",
