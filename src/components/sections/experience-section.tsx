@@ -24,7 +24,8 @@ export const ExperienceSection = () => {
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-12">
             Work Experience
           </h2>
-          <div className="relative border-l-2 border-primary pl-6 space-y-12">
+          {/* Padding (pl-8) has been REMOVED from this div */}
+          <div className="relative border-l-2 border-primary space-y-12">
             {portfolioData.workExperience.map((job, index) => (
               <motion.div
                 key={index}
@@ -34,10 +35,10 @@ export const ExperienceSection = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.2 }}
               >
-                <div className="absolute -left-[3.3rem] top-1.5 h-6 w-6 bg-primary rounded-full border-4 border-background flex items-center justify-center">
+                <div className="absolute -left-[0.875rem] top-1.5 h-6 w-6 bg-primary rounded-full border-4 border-background flex items-center justify-center z-10">
                   <Briefcase className="h-3 w-3 text-primary-foreground" />
                 </div>
-                <Card>
+                <Card className="ml-8">
                   <CardHeader>
                     <div className="flex justify-between items-start">
                       <div>
