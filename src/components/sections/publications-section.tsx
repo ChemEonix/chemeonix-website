@@ -12,7 +12,7 @@ import { BookOpen } from "lucide-react";
 
 export const PublicationsSection = () => {
   return (
-    <section id="publications" className="py-16 md:py-14">
+    <section id="publications" className="py-10 md:py-16">
       <div className="container mx-auto max-w-full">
         <motion.div
           initial={{ opacity: 0 }}

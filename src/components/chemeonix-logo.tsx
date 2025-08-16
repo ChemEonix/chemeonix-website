@@ -2,27 +2,100 @@
 
 export const ChemEonixLogo = () => (
   <svg
-    width="150"
-    height="50"
-    viewBox="0 0 250 100"
+    id="Layer_2"
+    data-name="Layer 2"
     xmlns="http://www.w3.org/2000/svg"
-    fontFamily="Montserrat, sans-serif"
+    viewBox="0 0 241.45 73.28"
+    className="h-10 w-auto"
   >
-    <g transform="translate(50, 50)">
-      <g strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M 0 -40 L 34.64 -20" stroke="#2D3748" />
-        <path d="M 0 40 L 34.64 20" stroke="#2D3748" />
-        <path d="M 34.64 -20 L 34.64 20" stroke="#4FD1C5" />
-        <path d="M -34.64 20 L -34.64 -20" stroke="#4FD1C5" />
-        <path d="M -34.64 20 L 0 40" stroke="#2D3748" />
-        <path d="M -34.64 -20 L 0 -40" stroke="#2D3748" />
-      </g>
-      <g fill="#4FD1C5" stroke="#4FD1C5" strokeWidth="2">
-        <path d="M 0 -12 L 3 -3 L 12 0 L 3 3 L 0 12 L -3 3 L -12 0 L -3 -3 Z" />
-      </g>
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path
+        d="M62,71.28H22"
+        style={{
+          stroke: "var(--primary)",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+        }}
+      />
+      <path
+        d="M22,2h40"
+        style={{
+          stroke: "var(--primary)",
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+        }}
+      />
+      <path
+        d="M2,36.64L22,2"
+        className="stroke-foreground"
+        style={{
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+        }}
+      />
+      <path
+        d="M82,36.64L62,2"
+        className="stroke-foreground"
+        style={{
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+        }}
+      />
+      <path
+        d="M62,71.28l20-34.64"
+        className="stroke-foreground"
+        style={{
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+        }}
+      />
+      <path
+        d="M22,71.28L2,36.64"
+        className="stroke-foreground"
+        style={{
+          strokeLinecap: "round",
+          strokeLinejoin: "round",
+          strokeWidth: "4px",
+        }}
+      />
+      <path
+        d="M42,24.64l3,9,9,3-9,3-3,9-3-9-9-3,9-3,3-9Z"
+        style={{
+          fill: "var(--primary)",
+          stroke: "var(--primary)",
+          strokeWidth: "2px",
+        }}
+      />
+      <text
+        transform="translate(97 44.64)"
+        className="fill-foreground font-heading"
+        style={{
+          fontSize: "24px",
+          fontWeight: 700,
+          isolation: "isolate",
+        }}
+      >
+        <tspan x="0" y="0">
+          C
+        </tspan>
+        <tspan x="17.59" y="0" style={{ letterSpacing: "0em" }}>
+          h
+        </tspan>
+        <tspan x="34.32" y="0">
+          em
+        </tspan>
+        <tspan x="74.64" y="0" style={{ letterSpacing: "0em" }}>
+          E
+        </tspan>
+        <tspan x="90.65" y="0" style={{ letterSpacing: "0em" }}>
+          onix
+        </tspan>
+      </text>
     </g>
-    <text x="105" y="58" fontSize="24" fontWeight="bold" fill="#2D3748">
-      ChemEonix
-    </text>
   </svg>
 );

@@ -9,7 +9,7 @@ export const AboutSection = () => {
   return (
     <section
       id="about"
-      className="py-16 md:py-24 bg-muted dark:bg-card rounded-lg"
+      className="py-10 md:py-16 bg-muted dark:bg-card rounded-lg"
     >
       <div className="container mx-auto">
         <motion.div

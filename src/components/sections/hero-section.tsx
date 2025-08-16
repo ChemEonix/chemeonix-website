@@ -7,7 +7,7 @@ import { Mail, Download } from "lucide-react";
 
 export const HeroSection = () => {
   return (
-    <section className="py-20 md:py-32 text-center">
+    <section className="py-10 md:py-16 text-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

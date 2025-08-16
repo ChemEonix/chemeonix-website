@@ -13,7 +13,7 @@ import { Briefcase } from "lucide-react";
 
 export const ExperienceSection = () => {
   return (
-    <section id="experience" className="py-16 md:py-24">
+    <section id="experience" className="py-10 md:py-16">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
