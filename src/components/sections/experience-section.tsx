@@ -28,12 +28,13 @@ export const ExperienceSection = () => {
             {portfolioData.workExperience.map((job, index) => (
               <motion.div
                 key={index}
+                className="relative"
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.2 }}
               >
-                <div className="absolute -left-[3.3rem] top-1.5 h-6 w-6 bg-primary rounded-full border-4 border-gackground flex items-center justify-center">
+                <div className="absolute -left-[3.3rem] top-1.5 h-6 w-6 bg-primary rounded-full border-4 border-background flex items-center justify-center">
                   <Briefcase className="h-3 w-3 text-primary-foreground" />
                 </div>
                 <Card>
