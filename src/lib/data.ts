@@ -3,7 +3,7 @@
 export const portfolioData = {
   name: "Travis B. Mitchell",
   title: "Ph.D. Chemist & AI Software Developer",
-  company: "Founder, ChemEonix, LLC",
+  company: "ChemEonix, LLC",
   contact: {
     email: "travis@chemeonix.com",
     generalInquiries: "hi@chemeonix.com",
