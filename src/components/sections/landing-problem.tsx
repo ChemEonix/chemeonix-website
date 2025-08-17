@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { BarChart3 } from "lucide-react";
 
 export const LandingProblem = () => {
-  const { headline, subHeadline, body } = landingPageData.theProblem;
+  const { headline, subhead, body } = landingPageData.theProblem;
 
   return (
     <section
@@ -24,7 +24,7 @@ export const LandingProblem = () => {
           {headline}
         </h1>
         <h2 className="text-xl md:text-2xl text-muted-foreground mb-4">
-          {subHeadline}
+          {subhead}
         </h2>
         <p className="text-lg md:text-xl">{body}</p>
       </motion.div>

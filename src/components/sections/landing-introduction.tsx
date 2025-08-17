@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Atom } from "lucide-react";
 
 export const LandingPageIntroduction = () => {
-  const { headline, subHeadline, body } = landingPageData.introduction;
+  const { headline, subhead, body } = landingPageData.introduction;
 
   return (
     <section
@@ -24,7 +24,7 @@ export const LandingPageIntroduction = () => {
           {headline}
         </h1>
         <h2 className="text-xl md:text-2xl text-muted-foreground mb-8">
-          {subHeadline}
+          {subhead}
         </h2>
         <p className="text-lg md:text-xl">{body}</p>
       </motion.div>
