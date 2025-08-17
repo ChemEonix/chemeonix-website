@@ -319,7 +319,7 @@ export const landingPageData = {
   introduction: {
     headline: "My journey began with atoms.",
     subHeadline:
-      "In graduate school, I learned that true understanding is built on a foundation of causaility, not just observation.",
+      "In graduate school, I learned that true understanding is built on a foundation of causality, not just observation.",
     body: "I designed and synthesized photochromic materials--diarylethenes--and studied their behavior at the atomic level using single crystal X-ray diffraction and computational chemistry. This deep dive into the fundamental rules governing molecular systems laid the foundation for my career building high-impact, proprietary platforms and now drives my mission to build a new class of intelligent, autonomous scientific software.",
   },
   theProblem: {
@@ -344,7 +344,7 @@ export const landingPageData = {
     },
   },
   theVision: {
-    headline: "The future is built on causaility.",
+    headline: "The future is built on causality.",
     subHeadline:
       "The next leap in AI is not about bigger models, but deeper understanding.",
     body: "My work is focused on building systems that move beyond prediction to uncover causal levers that drive outcomes. By integrating deep domain knowledge with tools like knowledge graphs and generative AI, we can create models that reason, not just react. This is how we build trust, unlock true innovation, and create systems that act as genuine partners to human experts.",
