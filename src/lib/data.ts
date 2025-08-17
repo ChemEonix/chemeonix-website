@@ -1,7 +1,7 @@
 // File: src/lib/data.ts
 
 export const portfolioData = {
-  name: "Dr. Travis B. Mitchell",
+  name: "Travis B. Mitchell",
   title: "Ph.D. Chemist & AI Software Developer",
   company: "ChemEonix, LLC",
   contact: {
