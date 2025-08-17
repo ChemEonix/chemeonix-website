@@ -314,3 +314,77 @@ export const portfolioData = {
     },
   ],
 };
+
+export const landingPageData = {
+  introduction: {
+    headline: "My journey began with atoms.",
+    subHeadline:
+      "In graduate school, I learned that true understanding is built on a foundation of causaility, not just observation.",
+    body: "I designed and synthesized photochromic materials--diarylethenes--and studied their behavior at the atomic level using single crystal X-ray diffraction and computational chemistry. This deep dive into the fundamental rules governing molecular systems laid the foundation for my career building high-impact, proprietary platforms and now drives my mission to build a new class of intelligent, autonomous scientific software.",
+  },
+  theProblem: {
+    headline: "Industry is drowning in correlation.",
+    subHeadline:
+      "We've become incredibly good at finding patterns, but we're still starving for insight.",
+    body: "Modern AI and machine learning is a marvel of pattern recognition. But a model that predicts 'what' without explaining 'why' is a black box. It's a powerful but blunt tool. Relying on correlation alone is like navigating with a compass that only points north--useful, but it won't show you mountains or valleys ahead.  This is the ceiling of innovation we're currently hitting.",
+  },
+  theShift: {
+    title: "The Shift: From Correlation to Causation",
+    correlation: {
+      title: "Correlation",
+      description:
+        'Observes that "A" and "B" happen together. It identifies patterns in data, but doesn\'t explain the "why" behind them. This is the limmit of most current data analysis.',
+      icon: "Link",
+    },
+    causation: {
+      title: "Causation",
+      description:
+        'Understands that "A" causes "B" to happen. This is the key to true understanding, allowing us to predict, engineer, and creae novel solutions with confidence.',
+      icon: "BrainCircuit",
+    },
+  },
+  theVision: {
+    headline: "The future is built on causaility.",
+    subHeadline:
+      "The next leap in AI is not about bigger models, but deeper understanding.",
+    body: "My work is focused on building systems that move beyond prediction to uncover causal levers that drive outcomes. By integrating deep domain knowledge with tools like knowledge graphs and generative AI, we can create models that reason, not just react. This is how we build trust, unlock true innovation, and create systems that act as genuine partners to human experts.",
+  },
+  impact: {
+    title: "Potential for Impact",
+    description:
+      "This vision is aimed at developing tools that can create a tangible, positive impact on some of humanity's biggest challenges.",
+    areas: [
+      {
+        title: "Accelerating Drug Discovery",
+        description:
+          "Uncover novel therapeutic pathways and design more effecitve medicines.",
+        icon: "Dna",
+      },
+      {
+        title: "Next-Generation Materials",
+        description:
+          "Engineer materials with desired properties from the atom up.",
+        icon: "Atom",
+      },
+      {
+        title: "Smarter Scientific Tools",
+        description:
+          "Empower researchers with intelligent software that acts as a true collaborator.",
+        icon: "Code",
+      },
+    ],
+  },
+  connect: {
+    title: "Let's Build the Future Together",
+    description:
+      "The initial venture proposals and MVPs are currently under development. I'm passionate about solving these types of challenges and am actively seeking opportunities to apply this vision. If my work resonates with you, I'd be excited to discuss how I can contribute to your team or how you can join mine.",
+    primaryCta: {
+      text: "View My Work",
+      href: "/portfolio",
+    },
+    secondaryCta: {
+      text: "Collaborate With Me",
+      href: "mailto:travis@chemeonix.com",
+    },
+  },
+};
