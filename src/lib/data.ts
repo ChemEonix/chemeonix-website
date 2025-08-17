@@ -185,7 +185,7 @@ export const portfolioData = {
     },
     {
       authors:
-        "Myers, S. D.; Myers, Z. Y.; Spernyak, J. A.; Mitchell, T. B.; Benedict, J. B.; Patel, D. P.",
+        "Myers, S. D.; Marr, Z. Y.; Spernyak, J. A.; Mitchell, T. B.; Benedict, J. B.; Patel, D. P.",
       title:
         "Crystallographic, Spectroscopic, and Computational Characterization of a Diiodonaphthoquinone Diarylethene Photochrome: Halogen Bonding and in situ Photocrystallography.",
       journal: "CrystEngComm",
