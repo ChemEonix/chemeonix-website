@@ -314,17 +314,19 @@ export const portfolioData = {
 };
 
 export const landingPageData = {
-  introduction: {
+  hero: {
+    headline: "From Correlation to Causality.",
+    subhead: "Building the next generation of intelligent scientific software.",
+    cta: "Explore My Vision",
+  },
+  originStory: {
     headline: "My journey began with atoms.",
     subhead:
       "In graduate school, I learned that true understanding is built on a foundation of causality, not just observation.",
-    body: "I designed and synthesized photochromic materials—diarylethenes—and studied their behavior at the atomic level using single crystal X-ray diffraction and computational chemistry. This deep dive into the fundamental rules governing molecular systems laid the foundation for my career building high-impact, proprietary platforms and now drives my mission to build a new class of intelligent, autonomous scientific software.",
-  },
-  theProblem: {
-    headline: "Industry is drowning in correlation.",
-    subhead:
-      "We've become incredibly good at finding patterns, but we're still starving for insight.",
-    body: "Modern AI and machine learning are a marvel of pattern recognition. But a model that predicts 'what' without explaining 'why' is a black box. It's a powerful but blunt tool. Relying on correlation alone is like navigating with a compass that only points north—useful, but it won't show you mountains or valleys ahead. This is the ceiling of innovation we're currently hitting.",
+    body: [
+      "I designed and synthesized photochromic materials—diarylethenes—and studied their behavior at the atomic level using single-crystal X-ray diffraction and DFT simulations. This deep dive into the fundamental rules governing molecular systems laid the foundation for my career.",
+      "Transitioning to industry, I saw a recurring pattern: a world awash in data but starved for insight. Modern machine learning is a marvel of pattern recognition, but a model that predicts 'what' without explaining 'why' is a black box. Relying on correlation alone is like navigating with a compass that only points north—useful, but it won't show you the mountains or valleys ahead. This is the ceiling of innovation we're currently hitting.",
+    ],
   },
   theShift: {
     title: "The Shift: From Correlation to Causation",
@@ -345,7 +347,7 @@ export const landingPageData = {
     headline: "The future is built on causality.",
     subhead:
       "The next leap in AI is not about bigger models, but deeper understanding.",
-    body: "My work is focused on building systems that move beyond prediction to uncover causal levers that drive outcomes. By integrating deep domain knowledge with tools like knowledge graphs and generative AI, we can create models that reason, not just react. This is how we build trust, unlock true innovation, and create systems that act as genuine partners to human experts.",
+    body: "My work is focused on building systems that move beyond prediction to uncover the causal levers that drive outcomes. By integrating deep domain knowledge with tools like knowledge graphs and generative AI, we can create models that reason, not just react. This is how we build trust, unlock true innovation, and create systems that act as genuine partners to human experts.",
   },
   impact: {
     title: "Potential for Impact",
@@ -353,7 +355,7 @@ export const landingPageData = {
       "This vision is aimed at developing tools that can create a tangible, positive impact on some of humanity's biggest challenges.",
     areas: [
       {
-        title: "Accelerating Drug Discovery",
+        title: "Accelerated Drug Discovery",
         description:
           "Uncover novel therapeutic pathways and design more effective medicines.",
         icon: "Dna",
@@ -373,7 +375,7 @@ export const landingPageData = {
     ],
   },
   connect: {
-    title: "Let's Build the Future Together",
+    title: "Let's Build the Future.",
     description:
       "The initial venture proposals and MVPs are currently under development. I'm passionate about solving these types of challenges and am actively seeking opportunities to apply this vision. If my work resonates with you, I'd be excited to discuss how I can contribute to your team or how you can join mine.",
     primaryCta: {
