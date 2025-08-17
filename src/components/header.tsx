@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link"; // <-- Import the Link component
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ThemeToggle } from "./theme-toggle";
 import { ChemEonixLogo } from "./chemeonix-logo";
