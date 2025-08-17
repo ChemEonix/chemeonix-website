@@ -1,7 +1,7 @@
 "use client";
 
 import { portfolioData } from "@/lib/data";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { Mail, Download } from "lucide-react";
 

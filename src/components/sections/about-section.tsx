@@ -1,7 +1,7 @@
 "use client";
 
 import { portfolioData } from "@/lib/data";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
 

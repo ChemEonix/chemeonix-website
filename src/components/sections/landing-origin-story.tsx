@@ -1,6 +1,6 @@
 "use client";
 import { landingPageData } from "@/lib/data";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { Atom, BarChart3 } from "lucide-react";
 
 export const LandingOriginStory = () => {

@@ -1,6 +1,7 @@
 "use client";
+
 import { landingPageData } from "@/lib/data";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { BrainCircuit } from "lucide-react";
 
 export const LandingVision = () => {
