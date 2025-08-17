@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { BrainCircuit } from "lucide-react";
 
 export const LandingVision = () => {
-  const { headline, subhead, body } = landingPageData.theVision;
+  const { headline, subHeadline, body } = landingPageData.theVision;
 
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center p-4 bg-muted dark:bg-card rounded-lg">
@@ -16,8 +16,12 @@ export const LandingVision = () => {
         className="max-w-3xl"
       >
         <BrainCircuit className="mx-auto h-16 w-16 text-primary mb-6" />
-        <h1 className="font-heading text-4xl md:text-6xl font-bold mb-4">{headline}</h1>
-        <h2 className="text-xl md:text-2xl text-muted-foreground mb-8">{subhead}</h2>
+        <h1 className="font-heading text-4xl md:text-6xl font-bold mb-4">
+          {headline}
+        </h1>
+        <h2 className="text-xl md:text-2xl text-muted-foreground mb-8">
+          {subHeadline}
+        </h2>
         <p className="text-lg md:text-xl">{body}</p>
       </motion.div>
     </section>
