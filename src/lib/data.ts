@@ -1,14 +1,14 @@
 // File: src/lib/data.ts
 
 export const portfolioData = {
-  name: "Travis B. Mitchell",
+  name: "Dr. Travis B. Mitchell",
   title: "Ph.D. Chemist & AI Software Developer",
   company: "ChemEonix, LLC",
   contact: {
     email: "travis@chemeonix.com",
     generalInquiries: "hi@chemeonix.com",
     phone: "501.353.4315",
-    location: "Los Angeles, CA",
+    location: "Los Angeles, CA, USA",
   },
   professionalProfile:
     "A Ph.D. Chemist and scientific software developer with a proven record of leading projects that apply physics-based methods, data analysis, and machine learning to solve complex scientific problems. Expertise in architecting automated, high-throughput computational workflows to accelerate molecular design and analysis. A highly collaborative researcher with 18 peer-reviewed publications and experience guiding junior scientists, adept at working within interdisciplinary teams to advance research from concept to deployment.",
@@ -19,7 +19,7 @@ export const portfolioData = {
         "Experience leading projects from conceptualization to deployment, including architecture design, development, and team mentorship. Led development and design efforts at SparkAI and Reveel.",
     },
     {
-      title: "Problem Solving",
+      title: "Problem-Solving",
       description:
         "Demonstrated ability to identify research and workflow bottlenecks and proactively engineer novel software and automation solutions.",
     },
@@ -36,7 +36,7 @@ export const portfolioData = {
     {
       title: "Scientific Communication",
       description:
-        "Expertise in disseminating complex scientific fiindings through 18 peer-reviewed publications, grand proposals, and presentations.",
+        "Expertise in disseminating complex scientific findings through 18 peer-reviewed publications, grant proposals, and presentations.",
     },
   ],
   technicalSkills: [
@@ -48,7 +48,7 @@ export const portfolioData = {
         "PyTorch",
         "TensorFlow/Keras",
         "Scikit-learn",
-        "RAG (Retrieval-Augmented Generation) Design",
+        "RAG Architecture Design",
       ],
     },
     {
@@ -81,12 +81,12 @@ export const portfolioData = {
         "Git",
         "GitHub Actions (CI/CD)",
         "Docker",
-        "Azure Virtual Machines",
+        "Azure VMs",
         "Azure Blob Storage",
       ],
     },
     {
-      category: "Computational Chemistry & Chemoinformatics",
+      category: "Computational Chemistry & Cheminformatics",
       skills: [
         "DFT (Density Functional Theory)",
         "TD-DFT (Time-Dependent DFT)",
@@ -126,7 +126,7 @@ export const portfolioData = {
     },
     {
       company: "Reveel",
-      role: "Principale Consultant - Computational Chemist (Contract)",
+      role: "Principal Consultant - Computational Chemist (Contract)",
       duration: "November 2023 - August 2024",
       description:
         "Designed and built a fully autonomous quantum chemical pipeline to systematically generate, execute, and analyze vast computational chemistry libraries of diarylethene (DAE) molecules. The system was capable of autonomously executing and parsing thousands of calculations without human interaction.",
@@ -175,8 +175,6 @@ export const portfolioData = {
       year: "May 2014",
     },
   ],
-  // In src/lib/data.ts, inside the portfolioData object...
-
   publications: [
     {
       authors: "Zhang, X.; Mitchell, T. B.; Benedict, J. B.",
@@ -318,34 +316,34 @@ export const portfolioData = {
 export const landingPageData = {
   introduction: {
     headline: "My journey began with atoms.",
-    subHeadline:
+    subhead:
       "In graduate school, I learned that true understanding is built on a foundation of causality, not just observation.",
-    body: "I designed and synthesized photochromic materials--diarylethenes--and studied their behavior at the atomic level using single crystal X-ray diffraction and computational chemistry. This deep dive into the fundamental rules governing molecular systems laid the foundation for my career building high-impact, proprietary platforms and now drives my mission to build a new class of intelligent, autonomous scientific software.",
+    body: "I designed and synthesized photochromic materials—diarylethenes—and studied their behavior at the atomic level using single crystal X-ray diffraction and computational chemistry. This deep dive into the fundamental rules governing molecular systems laid the foundation for my career building high-impact, proprietary platforms and now drives my mission to build a new class of intelligent, autonomous scientific software.",
   },
   theProblem: {
     headline: "Industry is drowning in correlation.",
-    subHeadline:
+    subhead:
       "We've become incredibly good at finding patterns, but we're still starving for insight.",
-    body: "Modern AI and machine learning is a marvel of pattern recognition. But a model that predicts 'what' without explaining 'why' is a black box. It's a powerful but blunt tool. Relying on correlation alone is like navigating with a compass that only points north--useful, but it won't show you mountains or valleys ahead.  This is the ceiling of innovation we're currently hitting.",
+    body: "Modern AI and machine learning are a marvel of pattern recognition. But a model that predicts 'what' without explaining 'why' is a black box. It's a powerful but blunt tool. Relying on correlation alone is like navigating with a compass that only points north—useful, but it won't show you mountains or valleys ahead. This is the ceiling of innovation we're currently hitting.",
   },
   theShift: {
     title: "The Shift: From Correlation to Causation",
     correlation: {
       title: "Correlation",
       description:
-        'Observes that "A" and "B" happen together. It identifies patterns in data, but doesn\'t explain the "why" behind them. This is the limmit of most current data analysis.',
+        'Observes that "A" and "B" happen together. It identifies patterns in data, but doesn\'t explain the "why" behind them. This is the limit of most current data analysis.',
       icon: "Link",
     },
     causation: {
       title: "Causation",
       description:
-        'Understands that "A" causes "B" to happen. This is the key to true understanding, allowing us to predict, engineer, and creae novel solutions with confidence.',
+        'Understands that "A" causes "B" to happen. This is the key to true understanding, allowing us to predict, engineer, and create novel solutions with confidence.',
       icon: "BrainCircuit",
     },
   },
   theVision: {
     headline: "The future is built on causality.",
-    subHeadline:
+    subhead:
       "The next leap in AI is not about bigger models, but deeper understanding.",
     body: "My work is focused on building systems that move beyond prediction to uncover causal levers that drive outcomes. By integrating deep domain knowledge with tools like knowledge graphs and generative AI, we can create models that reason, not just react. This is how we build trust, unlock true innovation, and create systems that act as genuine partners to human experts.",
   },
@@ -357,7 +355,7 @@ export const landingPageData = {
       {
         title: "Accelerating Drug Discovery",
         description:
-          "Uncover novel therapeutic pathways and design more effecitve medicines.",
+          "Uncover novel therapeutic pathways and design more effective medicines.",
         icon: "Dna",
       },
       {
