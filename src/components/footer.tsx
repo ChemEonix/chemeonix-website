@@ -15,7 +15,7 @@ export const Footer = () => {
         <p className="text-sm text-muted-foreground">
           Contact:{" "}
           <a
-            href={"mailto:${portfolioData.contact.generalInquiries}"}
+            href={`mailto:${portfolioData.contact.generalInquiries}`}
             className="hover:text-primary"
           >
             {portfolioData.contact.generalInquiries}
