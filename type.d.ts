@@ -12,7 +12,10 @@ declare module "motion/react" {
 }
 declare module "lucide-react";
 declare module "next/link" {
-  import { LinkProps } from "next/dist/client/link";
-  const Link: React.FC<LinkProps>;
+  import { LinkProps } from "next/link";
+  import { ForwardRefExoticComponent } from "react";
+
+  const Link: ForwardRefExoticComponent<LinkProps>;
+
   export default Link;
 }
