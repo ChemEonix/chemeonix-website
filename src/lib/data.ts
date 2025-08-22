@@ -31,7 +31,7 @@ export const portfolioData = {
     {
       title: "Rapid Skill Acquisition",
       description:
-        "Proven ability to self-teach complex new domains, such as full-stack web development and the principles of hardware prototyping, to deliver functional solutions in accelerated timelines.",
+        "Proven ability to self-teach and master complex new domains as required, from full-stack web development to the foundational science behind a venture.",
     },
     {
       title: "Scientific Communication",
