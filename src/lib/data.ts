@@ -21,17 +21,17 @@ export const portfolioData = {
     {
       title: "First-Principles Problem-Solving",
       description:
-        "Demonstrated ability to deconstruct complex challenges to their fundamental principles and engineer novel software, hardware, or process-based solutions.",
+        "Demonstrated ability to deconstruct complex challenges to their fundamental principles and design novel software, hardware, or process-based solutions.",
     },
     {
-      title: "Mentorship",
+      title: "Venture Conception & Strategy",
       description:
-        "Mentored approximately 3 undergraduate students and multiple junior graduate students in research methodologies.",
+        "Applying a first-principles scientific approach to identify high-value problems and architect strategic, fundable venture concepts.",
     },
     {
       title: "Rapid Skill Acquisition",
       description:
-        "Proven ability to self-teach complex new domains, such as full-stack web development and hardware prototyping, to deliver functional solutions in accelerated timelines.",
+        "Proven ability to self-teach complex new domains, such as full-stack web development and the principles of hardware prototyping, to deliver functional solutions in accelerated timelines.",
     },
     {
       title: "Scientific Communication",
@@ -132,11 +132,144 @@ export const portfolioData = {
     {
       institution: "University of Arkansas at Little Rock (UALR)",
       degree: "B.S., Chemistry",
-      year: "May 2024",
+      year: "May 2014",
     },
   ],
   publications: [
-    // ... (full list of 18 publication objects) ...
+    {
+      authors: "Zhang, X.; Mitchell, T. B.; Benedict, J. B.",
+      title:
+        "The Crystal Structure Landscape of Diarylethene-based Crystalline Solids: A Comprehensive CSD Analysis.",
+      journal: "Crystal Growth Des.",
+      citation: "2024, 24 (15), 6284–6291.",
+    },
+    {
+      authors:
+        "Myers, S. D.; Marr, Z. Y.; Spernyak, J. A.; Mitchell, T. B.; Benedict, J. B.; Patel, D. P.",
+      title:
+        "Crystallographic, Spectroscopic, and Computational Characterization of a Diiodonaphthoquinone Diarylethene Photochrome: Halogen Bonding and in situ Photocrystallography.",
+      journal: "CrystEngComm",
+      citation: "2024, 26, 2510–2517.",
+    },
+    {
+      authors:
+        "Mitchell, T. B.; Zhang, X.; Jerozal, R. T.; Chen, Y.-S.; Wang, S.; Benedict, J. B.",
+      title:
+        "Development of a scalar-based geometric parameterization approach for the crystal structure landscape of dithienylethene-based crystalline solids.",
+      journal: "IUCrJ",
+      citation: "2023, 10 (6), 694–699.",
+    },
+    {
+      authors: "Angevine, D. J.; Mitchell, T.; Zhang, X.; Benedict, J. B.",
+      title:
+        "Unusual single crystal to single crystal phase transition of a nicotine salt monitored using temperature dependent single crystal X-ray diffraction.",
+      journal: "CrystEngComm",
+      citation: "2023, 25, 2181–2184.",
+    },
+    {
+      authors:
+        "Huang, Y.; Mitchell, T.; Zheng, Y.; Hu, Y.; Benedict, J. B.; Seo, J.-H.; Ren, S.",
+      title: "Switching charge states in quasi-2D molecular conductors.",
+      journal: "PNAS Nexus",
+      citation: "2022, 1 (3), pgac089.",
+    },
+    {
+      authors:
+        "Huang, Y.; Mitchell, T.; Yost, D. C.; Hu, Y.; Benedict, J. B.; Grossman, J. C.; Ren, S.",
+      title: "Emerged metallicity in molecular ferromagnetic wires.",
+      journal: "Nano Lett.",
+      citation: "2021, 21 (22), 9746–9753.",
+    },
+    {
+      authors:
+        "Huang, Y.; Chen, Y.; Hu, Y.; Mitchell, T.; An, L.; Li, Z.; Benedict, J.; Li, H.; Ren, S.",
+      title: "Cross-linking and charging molecular magnetoelectronics.",
+      journal: "Nano Lett.",
+      citation: "2021, 21 (9), 4099–4105.",
+    },
+    {
+      authors: "Hu, Y.; Adhikari, D.; Tan, A.; et al. (incl. Mitchell, T.)",
+      title:
+        "Laser-Induced Cooperative Transition in Molecular Electronic Crystal.",
+      journal: "Adv. Mater.",
+      citation: "2021, 33 (39), 2103000.",
+    },
+    {
+      authors:
+        "Walton, I. M.; Cox, J. M.; Myers, S. D.; et al. (incl. Mitchell, T. B.)",
+      title:
+        "Determination of the dehydration pathway in a flexible metal–organic framework by dynamic in situ x-ray diffraction.",
+      journal: "Struct. Dyn.",
+      citation: "2020, 7 (3), 032305.",
+    },
+    {
+      authors:
+        "Patel, D. G.; Mitchell, T. B.; Myers, S. D.; Carter, D. A.; Novak, F. A.",
+      title: "A Suzuki approach to quinone-based diarylethene photochromes.",
+      journal: "J. Org. Chem.",
+      citation: "2020, 85 (4), 2646–2653.",
+    },
+    {
+      authors: "Patel, D. G.; Boggio-Pasqua, M.; Mitchell, T. B.; et al.",
+      title:
+        "Computational and Crystallographic Examination of Naphthoquinone Based Diarylethene Photochromes.",
+      journal: "Molecules",
+      citation: "2020, 25 (11), 2630.",
+    },
+    {
+      authors:
+        "Asik, D.; Smolinski, R.; Abozeid, S. M.; Mitchell, T. B.; et al.",
+      title:
+        "Modulating the properties of Fe (III) macrocyclic MRI contrast agents by appending sulfonate or hydroxyl groups.",
+      journal: "Molecules",
+      citation: "2020, 25 (10), 2291.",
+    },
+    {
+      authors:
+        "Patel, D. G.; Sylvester, E. D.; LeValley, N. R.; Mitchell, T. B.; Benedict, J. B.",
+      title:
+        "The Structure and Characterization of 3, 4, 5-Triiodo-2-Methylthiophene: An Unexpected Iodination Product of 2-Methylthiophene.",
+      journal: "J. Chem. Crystallogr.",
+      citation: "2019, 49, 206–212.",
+    },
+    {
+      authors: "Parnell, C. M.; Chhetri, B. P.; Mitchell, T. B.; et al.",
+      title:
+        "Simultaneous electrochemical deposition of cobalt complex and poly (pyrrole) thin films for supercapacitor electrodes.",
+      journal: "Sci. Rep.",
+      citation: "2019, 9 (1), 5650.",
+    },
+    {
+      authors: "Hu, Y.; Zhong, G.; Guan, Y. S.; et al. (incl. Mitchell, T.)",
+      title:
+        "Alkali-Metal-Intercalated Percolation Network Regulates Self-Assembled Electronic Aromatic Molecules.",
+      journal: "Adv. Mater.",
+      citation: "2019, 31 (11), 1807178.",
+    },
+    {
+      authors:
+        "Cox, J. M.; Walton, I. M.; Bateman, G.; et al. (incl. Mitchell, T.)",
+      title:
+        "Solvent exchange in a metal–organic framework single crystal monitored by dynamic in situ X-ray diffraction.",
+      journal: "Acta Crystallogr. B",
+      citation: "2017, 73 (4), 669–674.",
+    },
+    {
+      authors:
+        "Walton, I. M.; Cox, J. M.; Mitchell, T. B.; Bizier, N. P.; Benedict, J. B.",
+      title:
+        "Structural response to desolvation in a pyridyl-phenanthrene diarylethene-based metal–organic framework.",
+      journal: "CrystEngComm",
+      citation: "2016, 18 (41), 7972–7977.",
+    },
+    {
+      authors:
+        "Parnell, C. M.; Watanabe, F.; Nasini, U. B.; Berry, B. C.; Mitchell, T.; Shaikh, A. U.; Ghosh, A.",
+      title:
+        "Electrochemical sensing of hydrogen peroxide using a cobalt (III) complex supported on carbonaceous nanomaterials.",
+      journal: "J. Electroanal. Chem.",
+      citation: "2015, 740, 37–44.",
+    },
   ],
 };
 
@@ -153,7 +286,7 @@ export const landingPageData = {
       "In graduate school, I learned that true innovation comes from understanding a problem at its most fundamental level.",
     body: [
       "I designed and synthesized photochromic materials—diarylethenes—and studied their behavior at the atomic level using single-crystal X-ray diffraction and DFT simulations. This deep dive into the fundamental rules governing molecular systems taught me the power of a first-principles approach.",
-      "Transitioning to industry, I saw a recurring pattern: companies building solutions to treat symptoms, not root causes. Many modern tools are marvels of engineering, but a solution that works without a clear 'why' is a temporary fix. My goal is to build ventures that create lasting value by solving problems at their core.",
+      "Transitioning to industry, I saw a recurring pattern: companies building solutions to treat symptoms, not root causes. This creates a ceiling for innovation. I founded ChemEonix, LLC with a mission: to build deep-tech ventures by deconstructing complex challenges to their fundamental principles and then engineering the right solution.",
     ],
   },
   theShift: {
@@ -185,7 +318,7 @@ export const landingPageData = {
       {
         title: "Sustainable Agriculture",
         description: "Creating more resilient and efficient food systems.",
-        icon: "Leaf", // Placeholder for a relevant icon
+        icon: "Leaf",
       },
       {
         title: "Accelerated Drug Discovery",
