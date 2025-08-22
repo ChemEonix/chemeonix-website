@@ -2,12 +2,13 @@
 import { landingPageData } from "@/lib/data";
 import { motion } from "motion/react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Dna, Atom, Code } from "lucide-react";
+import { Dna, Atom, Code, Leaf } from "lucide-react";
 
 const icons = {
   Dna,
   Atom,
   Code,
+  Leaf,
 };
 
 export const LandingImpact = () => {

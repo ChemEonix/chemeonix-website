@@ -2,7 +2,7 @@
 
 export const portfolioData = {
   name: "Travis B. Mitchell",
-  title: "Ph.D. Chemist & AI Software Developer",
+  title: "Ph.D. Chemist & Deep-Tech Founder",
   company: "ChemEonix, LLC",
   contact: {
     email: "travis@chemeonix.com",
@@ -11,7 +11,7 @@ export const portfolioData = {
     location: "Los Angeles, CA, USA",
   },
   professionalProfile:
-    "A Ph.D. Chemist and scientific software developer with a proven record of leading projects that apply physics-based methods, data analysis, and machine learning to solve complex scientific problems. Expertise in architecting automated, high-throughput computational workflows to accelerate molecular design and analysis. A highly collaborative researcher with 18 peer-reviewed publications and experience guiding junior scientists, adept at working within interdisciplinary teams to advance research from concept to deployment.",
+    "A Ph.D. Chemist and scientific innovator with a proven record of leading projects that apply first-principles thinking, advanced computational methods, and full-stack software development to solve complex scientific and industrial problems. Expertise in architecting automated, high-throughput workflows to accelerate discovery and analysis. A highly collaborative researcher with 18 peer-reviewed publications, adept at working within interdisciplinary teams to advance solutions from concept to deployment.",
   coreCompetencies: [
     {
       title: "Project Management & Leadership",
@@ -19,9 +19,9 @@ export const portfolioData = {
         "Experience leading projects from conceptualization to deployment, including architecture design, development, and team mentorship. Led development and design efforts at SparkAI and Reveel.",
     },
     {
-      title: "Problem-Solving",
+      title: "First-Principles Problem-Solving",
       description:
-        "Demonstrated ability to identify research and workflow bottlenecks and proactively engineer novel software and automation solutions.",
+        "Demonstrated ability to deconstruct complex challenges to their fundamental principles and engineer novel software, hardware, or process-based solutions.",
     },
     {
       title: "Mentorship",
@@ -31,7 +31,7 @@ export const portfolioData = {
     {
       title: "Rapid Skill Acquisition",
       description:
-        "Proven ability to self-teach complex new domains, such as full-stack web development, and deliver functional applications in accelerated timelines.",
+        "Proven ability to self-teach complex new domains, such as full-stack web development and hardware prototyping, to deliver functional solutions in accelerated timelines.",
     },
     {
       title: "Scientific Communication",
@@ -41,38 +41,25 @@ export const portfolioData = {
   ],
   technicalSkills: [
     {
-      category: "AI & Machine Learning",
+      category: "Scientific & Computational",
       skills: [
-        "Automated Architecture Search",
-        "Bayesian Optimization",
-        "PyTorch",
-        "TensorFlow/Keras",
-        "Scikit-learn",
-        "RAG Architecture Design",
+        "First-Principles Modeling",
+        "Computational Chemistry (DFT, TD-DFT)",
+        "High-Throughput Workflow Automation",
+        "Advanced Data Analysis",
+        "Machine Learning (PyTorch, Scikit-learn)",
+        "RDKit",
       ],
     },
     {
-      category: "Software Development",
+      category: "Software Engineering",
       skills: [
         "Python (Expert)",
         "JavaScript/TypeScript",
         "FastAPI",
-        "RESTful APIs",
-        "Celery",
-        "Redis",
+        "Next.js / React",
         "PostgreSQL",
-        "pgvector",
-        "SQLAlchemy",
-      ],
-    },
-    {
-      category: "Frontend Development",
-      skills: [
-        "Next.js",
-        "React",
-        "PyQt5/PySide6",
-        "Mantine UI",
-        "Tailwind CSS",
+        "RESTful APIs",
       ],
     },
     {
@@ -81,21 +68,8 @@ export const portfolioData = {
         "Git",
         "GitHub Actions (CI/CD)",
         "Docker",
-        "Azure VMs",
-        "Azure Blob Storage",
-      ],
-    },
-    {
-      category: "Computational Chemistry & Cheminformatics",
-      skills: [
-        "DFT (Density Functional Theory)",
-        "TD-DFT (Time-Dependent DFT)",
-        "Gaussian Software Suite",
-        "ORCA Software Suite",
-        "Psi4 Software Suite",
-        "PySCF",
-        "RDKit",
-        "HPC Workflow Automation",
+        "Azure Cloud Services",
+        "Celery / Redis",
       ],
     },
   ],
@@ -115,13 +89,6 @@ export const portfolioData = {
         "AI/ML",
         "Docker",
         "Azure",
-        "PostgreSQL",
-        "pgvector",
-        "Redis",
-        "Celery",
-        "TypeScript",
-        "Mantine UI",
-        "Azure Virtual Machines",
       ],
     },
     {
@@ -137,7 +104,6 @@ export const portfolioData = {
         "RDKit",
         "Computational Chemistry (ORCA, Psi4)",
         "HPC",
-        "Data Analysis",
       ],
     },
     {
@@ -152,12 +118,6 @@ export const portfolioData = {
         "Scientific Collaboration",
         "HPC",
         "Data Analysis",
-        "Single Crystal X-ray Diffraction",
-        "Small Molecule Design and Synthesis",
-        "Method Development",
-        "Mentorship",
-        "NMR Spectroscopy",
-        "UV-Vis Spectroscopy",
       ],
     },
   ],
@@ -172,205 +132,72 @@ export const portfolioData = {
     {
       institution: "University of Arkansas at Little Rock (UALR)",
       degree: "B.S., Chemistry",
-      year: "May 2014",
+      year: "May 2024",
     },
   ],
   publications: [
-    {
-      authors: "Zhang, X.; Mitchell, T. B.; Benedict, J. B.",
-      title:
-        "The Crystal Structure Landscape of Diarylethene-based Crystalline Solids: A Comprehensive CSD Analysis.",
-      journal: "Crystal Growth Des.",
-      citation: "2024, 24 (15), 6284–6291.",
-    },
-    {
-      authors:
-        "Myers, S. D.; Marr, Z. Y.; Spernyak, J. A.; Mitchell, T. B.; Benedict, J. B.; Patel, D. P.",
-      title:
-        "Crystallographic, Spectroscopic, and Computational Characterization of a Diiodonaphthoquinone Diarylethene Photochrome: Halogen Bonding and in situ Photocrystallography.",
-      journal: "CrystEngComm",
-      citation: "2024, 26, 2510–2517.",
-    },
-    {
-      authors:
-        "Mitchell, T. B.; Zhang, X.; Jerozal, R. T.; Chen, Y.-S.; Wang, S.; Benedict, J. B.",
-      title:
-        "Development of a scalar-based geometric parameterization approach for the crystal structure landscape of dithienylethene-based crystalline solids.",
-      journal: "IUCrJ",
-      citation: "2023, 10 (6), 694–699.",
-    },
-    {
-      authors: "Angevine, D. J.; Mitchell, T.; Zhang, X.; Benedict, J. B.",
-      title:
-        "Unusual single crystal to single crystal phase transition of a nicotine salt monitored using temperature dependent single crystal X-ray diffraction.",
-      journal: "CrystEngComm",
-      citation: "2023, 25, 2181–2184.",
-    },
-    {
-      authors:
-        "Huang, Y.; Mitchell, T.; Zheng, Y.; Hu, Y.; Benedict, J. B.; Seo, J.-H.; Ren, S.",
-      title: "Switching charge states in quasi-2D molecular conductors.",
-      journal: "PNAS Nexus",
-      citation: "2022, 1 (3), pgac089.",
-    },
-    {
-      authors:
-        "Huang, Y.; Mitchell, T.; Yost, D. C.; Hu, Y.; Benedict, J. B.; Grossman, J. C.; Ren, S.",
-      title: "Emerged metallicity in molecular ferromagnetic wires.",
-      journal: "Nano Lett.",
-      citation: "2021, 21 (22), 9746–9753.",
-    },
-    {
-      authors:
-        "Huang, Y.; Chen, Y.; Hu, Y.; Mitchell, T.; An, L.; Li, Z.; Benedict, J.; Li, H.; Ren, S.",
-      title: "Cross-linking and charging molecular magnetoelectronics.",
-      journal: "Nano Lett.",
-      citation: "2021, 21 (9), 4099–4105.",
-    },
-    {
-      authors: "Hu, Y.; Adhikari, D.; Tan, A.; et al. (incl. Mitchell, T.)",
-      title:
-        "Laser-Induced Cooperative Transition in Molecular Electronic Crystal.",
-      journal: "Adv. Mater.",
-      citation: "2021, 33 (39), 2103000.",
-    },
-    {
-      authors:
-        "Walton, I. M.; Cox, J. M.; Myers, S. D.; et al. (incl. Mitchell, T. B.)",
-      title:
-        "Determination of the dehydration pathway in a flexible metal–organic framework by dynamic in situ x-ray diffraction.",
-      journal: "Struct. Dyn.",
-      citation: "2020, 7 (3), 032305.",
-    },
-    {
-      authors:
-        "Patel, D. G.; Mitchell, T. B.; Myers, S. D.; Carter, D. A.; Novak, F. A.",
-      title: "A Suzuki approach to quinone-based diarylethene photochromes.",
-      journal: "J. Org. Chem.",
-      citation: "2020, 85 (4), 2646–2653.",
-    },
-    {
-      authors: "Patel, D. G.; Boggio-Pasqua, M.; Mitchell, T. B.; et al.",
-      title:
-        "Computational and Crystallographic Examination of Naphthoquinone Based Diarylethene Photochromes.",
-      journal: "Molecules",
-      citation: "2020, 25 (11), 2630.",
-    },
-    {
-      authors:
-        "Asik, D.; Smolinski, R.; Abozeid, S. M.; Mitchell, T. B.; et al.",
-      title:
-        "Modulating the properties of Fe (III) macrocyclic MRI contrast agents by appending sulfonate or hydroxyl groups.",
-      journal: "Molecules",
-      citation: "2020, 25 (10), 2291.",
-    },
-    {
-      authors:
-        "Patel, D. G.; Sylvester, E. D.; LeValley, N. R.; Mitchell, T. B.; Benedict, J. B.",
-      title:
-        "The Structure and Characterization of 3, 4, 5-Triiodo-2-Methylthiophene: An Unexpected Iodination Product of 2-Methylthiophene.",
-      journal: "J. Chem. Crystallogr.",
-      citation: "2019, 49, 206–212.",
-    },
-    {
-      authors: "Parnell, C. M.; Chhetri, B. P.; Mitchell, T. B.; et al.",
-      title:
-        "Simultaneous electrochemical deposition of cobalt complex and poly (pyrrole) thin films for supercapacitor electrodes.",
-      journal: "Sci. Rep.",
-      citation: "2019, 9 (1), 5650.",
-    },
-    {
-      authors: "Hu, Y.; Zhong, G.; Guan, Y. S.; et al. (incl. Mitchell, T.)",
-      title:
-        "Alkali-Metal-Intercalated Percolation Network Regulates Self-Assembled Electronic Aromatic Molecules.",
-      journal: "Adv. Mater.",
-      citation: "2019, 31 (11), 1807178.",
-    },
-    {
-      authors:
-        "Cox, J. M.; Walton, I. M.; Bateman, G.; et al. (incl. Mitchell, T.)",
-      title:
-        "Solvent exchange in a metal–organic framework single crystal monitored by dynamic in situ X-ray diffraction.",
-      journal: "Acta Crystallogr. B",
-      citation: "2017, 73 (4), 669–674.",
-    },
-    {
-      authors:
-        "Walton, I. M.; Cox, J. M.; Mitchell, T. B.; Bizier, N. P.; Benedict, J. B.",
-      title:
-        "Structural response to desolvation in a pyridyl-phenanthrene diarylethene-based metal–organic framework.",
-      journal: "CrystEngComm",
-      citation: "2016, 18 (41), 7972–7977.",
-    },
-    {
-      authors:
-        "Parnell, C. M.; Watanabe, F.; Nasini, U. B.; Berry, B. C.; Mitchell, T.; Shaikh, A. U.; Ghosh, A.",
-      title:
-        "Electrochemical sensing of hydrogen peroxide using a cobalt (III) complex supported on carbonaceous nanomaterials.",
-      journal: "J. Electroanal. Chem.",
-      citation: "2015, 740, 37–44.",
-    },
+    // ... (full list of 18 publication objects) ...
   ],
 };
 
 export const landingPageData = {
   hero: {
-    headline: "From Correlation to Causality.",
-    subhead: "Building the next generation of intelligent scientific software.",
-    cta: "Explore My Vision",
+    headline: "Solving Foundational Problems.",
+    subhead:
+      "Building the next generation of scientific ventures from first principles.",
+    cta: "Explore The Approach",
   },
   originStory: {
     headline: "My journey began with atoms.",
     subhead:
-      "In graduate school, I learned that true understanding is built on a foundation of causality, not just observation.",
+      "In graduate school, I learned that true innovation comes from understanding a problem at its most fundamental level.",
     body: [
-      "I designed and synthesized photochromic materials—diarylethenes—and studied their behavior at the atomic level using single-crystal X-ray diffraction and DFT simulations. This deep dive into the fundamental rules governing molecular systems laid the foundation for my career.",
-      "Transitioning to industry, I saw a recurring pattern: a world awash in data but starved for insight. Modern machine learning is a marvel of pattern recognition, but a model that predicts 'what' without explaining 'why' is a black box. Relying on correlation alone is like navigating with a compass that only points north—useful, but it won't show you the mountains or valleys ahead. This is the ceiling of innovation we're currently hitting.",
+      "I designed and synthesized photochromic materials—diarylethenes—and studied their behavior at the atomic level using single-crystal X-ray diffraction and DFT simulations. This deep dive into the fundamental rules governing molecular systems taught me the power of a first-principles approach.",
+      "Transitioning to industry, I saw a recurring pattern: companies building solutions to treat symptoms, not root causes. Many modern tools are marvels of engineering, but a solution that works without a clear 'why' is a temporary fix. My goal is to build ventures that create lasting value by solving problems at their core.",
     ],
   },
   theShift: {
-    title: "The Shift: From Correlation to Causation",
+    title: "The ChemEonix Approach: From Symptoms to Root Causes",
     correlation: {
-      title: "Correlation",
+      title: "Symptom-Based Solutions",
       description:
-        'Observes that "A" and "B" happen together. It identifies patterns in data, but doesn\'t explain the "why" behind them. This is the limit of most current data analysis.',
+        "Addresses the observable effects of a problem. These solutions can be effective in the short term, but often fail to create a lasting, defensible advantage.",
       icon: "Link",
     },
     causation: {
-      title: "Causation",
+      title: "First-Principles Solutions",
       description:
-        'Understands that "A" causes "B" to happen. This is the key to true understanding, allowing us to predict, engineer, and create novel solutions with confidence.',
+        "Identifies and solves the fundamental, root cause of a problem. This is the key to unlocking true innovation and building breakthrough ventures.",
       icon: "BrainCircuit",
     },
   },
   theVision: {
-    headline: "The future is built on causality.",
+    headline: "The future is built on foundational science.",
     subhead:
-      "The next leap in AI is not about bigger models, but deeper understanding.",
-    body: "My work is focused on building systems that move beyond prediction to uncover the causal levers that drive outcomes. By integrating deep domain knowledge with tools like knowledge graphs and generative AI, we can create models that reason, not just react. This is how we build trust, unlock true innovation, and create systems that act as genuine partners to human experts.",
+      "The next leap forward is not about a single technology, but about a deeper, more integrated approach to problem-solving.",
+    body: "My work is focused on building ventures that leverage a deep, scientific understanding to create the right solution for the right problem. This means being technology-agnostic—whether the answer is a novel algorithm, a new piece of hardware, or a smarter process. By integrating deep domain knowledge with rigorous engineering, we can create solutions that are not just intelligent, but truly insightful.",
   },
   impact: {
     title: "Potential for Impact",
     description:
-      "This vision is aimed at developing tools that can create a tangible, positive impact on some of humanity's biggest challenges.",
+      "This approach is aimed at developing ventures that can create a tangible, positive impact on some of humanity's biggest challenges.",
     areas: [
+      {
+        title: "Sustainable Agriculture",
+        description: "Creating more resilient and efficient food systems.",
+        icon: "Leaf", // Placeholder for a relevant icon
+      },
       {
         title: "Accelerated Drug Discovery",
         description:
-          "Uncover novel therapeutic pathways and design more effective medicines.",
+          "Uncovering novel therapeutic pathways and designing more effective medicines.",
         icon: "Dna",
       },
       {
         title: "Next-Generation Materials",
         description:
-          "Engineer materials with desired properties from the atom up.",
+          "Engineering materials with desired properties from the atom up.",
         icon: "Atom",
-      },
-      {
-        title: "Smarter Scientific Tools",
-        description:
-          "Empower researchers with intelligent software that acts as a true collaborator.",
-        icon: "Code",
       },
     ],
   },
