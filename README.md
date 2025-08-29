@@ -21,3 +21,42 @@ This project is built with a modern, professional, and scalable tech stack, desi
 * **Testing**: [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 * **Code Quality**: [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) with pre-commit hooks via [Husky](https://typicode.github.io/husky/).
 * **Deployment**: The live site is deployed on Vercel with CI/CD via GitHub Actions.
+
+---
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+* [Node.js](https://nodejs.org/) (LTS version recommended)
+* [Yarn](https://yarnpkg.com/)
+* [Git](https://git-scm.com/)
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone git@github.com:ChemEonix/chemeonix-website.git
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd chemeonix-website
+    ```
+
+3.  **Install dependencies with Yarn:**
+    ```bash
+    yarn install
+    ```
+
+### Running the Development Server
+
+To run the app in development mode, execute:
+
+```bash
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The page will auto-update as you edit the files.
