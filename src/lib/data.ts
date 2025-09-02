@@ -76,7 +76,7 @@ export const portfolioData = {
   workExperience: [
     {
       company: "SparkAI",
-      role: "Lead Engineer (Contract)",
+      role: "Lead Software Engineer",
       duration: "June 2024 - July 2025",
       description:
         "Architected and delivered a full-stack web platform for multi-objective formulation optimization. Developed a proprietary algorithm to automate neural network architecture search for sparse, high-dimensional data. Achieved 80% predictive accuracy, delivering a functional MVP that led to a formal case study with a major industrial partner.",
@@ -93,7 +93,7 @@ export const portfolioData = {
     },
     {
       company: "Reveel",
-      role: "Principal Consultant - Computational Chemist (Contract)",
+      role: "Senior Scientist",
       duration: "November 2023 - August 2024",
       description:
         "Designed and built a fully autonomous quantum chemical pipeline to systematically generate, execute, and analyze vast computational chemistry libraries of diarylethene (DAE) molecules. The system was capable of autonomously executing and parsing thousands of calculations without human interaction.",
