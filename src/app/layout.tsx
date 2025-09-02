@@ -15,10 +15,11 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Travis B. Mitchell | Ph.D. Chemist & AI Software Developer",
+export const metadata = {
+  title:
+    "Travis B. Mitchell — Ph.D. Chemist & Software/AI Engineer | Open to Roles",
   description:
-    "The professional portfolio of Travis B. Mitchell, founder of ChemEonix, LLC. Bridging deep science with high-performance software.",
+    "Portfolio of Travis B. Mitchell, Ph.D. Chemist & Software/AI Engineer. Open to full-time opportunities in software/AI, computational chemistry, and synthesis/materials R&D. View projects, publications, and contact for roles or collaborations.",
 };
 
 export default function RootLayout({

@@ -20,6 +20,11 @@ export const HeroSection = () => {
         <p className="text-lg md:text-xl lg:text-2xl text-primary font-semibold mb-8">
           {portfolioData.title}
         </p>
+        <p className="max-w-3xl mx-auto text-muted-foreground mb-4">
+          Open to full-time roles in Software/AI • Computational Chemistry •
+          Synthesis/Materials R&D
+        </p>
+
         <p className="max-w-3xl mx-auto text-muted-foreground mb-8">
           Bridging atoms and bits to engineer the future of scientific software
           and the chemical sciences.

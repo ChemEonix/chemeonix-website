@@ -76,23 +76,6 @@ export const portfolioData = {
   ],
   workExperience: [
     {
-      company: "ChemEonix, LLC",
-      role: "Founder & CEO",
-      duration: "January 2025 – Present",
-      description:
-        "Created ChemEonix as an independent R&D studio and portfolio to explore causal ML and first-principles problem-solving across software and the chemical sciences. Architected software pipelines and full-stack systems using FastAPI, Next.js, PostgreSQL, Docker, and Azure. Designed and tested AI/ML methods (PyTorch, scikit-learn) emphasizing causal inference to improve predictive accuracy on small, sparse datasets. Actively open to full-time roles in software/AI, computational chemistry, synthesis/materials R&D, and adjacent domains, as well as collaborations.",
-      skills: [
-        "Full-Stack Development",
-        "AI/ML (PyTorch, scikit-learn)",
-        "Computational Chemistry",
-        "Project Leadership",
-        "Venture Strategy",
-        "FastAPI",
-        "Next.js",
-        "Azure",
-      ],
-    },
-    {
       company: "SparkAI",
       role: "Lead Software Engineer",
       duration: "June 2024 - July 2025",
