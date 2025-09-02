@@ -1,12 +1,11 @@
 // File: src/lib/data.ts
 
 export const portfolioData = {
-  name: "Travis B. Mitchell",
-  title: "Ph.D. Chemist & Deep-Tech Founder",
-  company: "ChemEonix, LLC",
+  name: "Travis B. Mitchell, Ph.D.",
+  title: "Chemist & Scientific Software Developer",
+  company: "",
   contact: {
-    email: "travis@chemeonix.com",
-    generalInquiries: "hi@chemeonix.com",
+    email: "mitchell.travis@gmail.com",
     phone: "501.353.4315",
     location: "Los Angeles, CA, USA",
   },
@@ -24,9 +23,9 @@ export const portfolioData = {
         "Demonstrated ability to deconstruct complex challenges to their fundamental principles and design novel software, hardware, or process-based solutions.",
     },
     {
-      title: "Venture Conception & Strategy",
+      title: "Computational Workflow Architecture",
       description:
-        "Applying a first-principles scientific approach to identify high-value problems and architect strategic, fundable venture concepts.",
+        "Expertise in designing and building scalable, automated pipelines for high-throughput computational science, from data generation to analysis.",
     },
     {
       title: "Rapid Skill Acquisition",
@@ -273,24 +272,28 @@ export const portfolioData = {
   ],
 };
 
+// ===================================================================================
+// JOB APPLICATION LANDING PAGE DATA (This is the new narrative for your site)
+// ===================================================================================
+
 export const landingPageData = {
   hero: {
-    headline: "Solving Foundational Problems.",
+    headline: "Travis B. Mitchell, Ph.D.",
     subhead:
-      "Building the next generation of scientific ventures from first principles.",
-    cta: "Explore The Approach",
+      "Applying computational science and software engineering to solve complex chemical problems.",
+    cta: "View My Work",
   },
   originStory: {
     headline: "My journey began with atoms.",
     subhead:
-      "In graduate school, I learned that true innovation comes from understanding a problem at its most fundamental level.",
+      "True innovation comes from understanding a problem at its most fundamental level.",
     body: [
-      "I designed and synthesized photochromic materials—diarylethenes—and studied their behavior at the atomic level using single-crystal X-ray diffraction and DFT simulations. This deep dive into the fundamental rules governing molecular systems taught me the power of a first-principles approach.",
-      "Transitioning to industry, I saw a recurring pattern: companies building solutions to treat symptoms, not root causes. This creates a ceiling for innovation. I founded ChemEonix, LLC with a mission: to build deep-tech ventures by deconstructing complex challenges to their fundamental principles and then engineering the right solution.",
+      "In graduate school, I designed and synthesized photochromic materials and studied their behavior at the atomic level using single-crystal X-ray diffraction and DFT simulations. This deep dive into the fundamental rules governing molecular systems taught me the power of a first-principles approach.",
+      "In my professional work, I've applied that same thinking to build robust, scalable software solutions. My mission is to deconstruct complex challenges to their fundamental principles and then engineer the right solution, bridging the gap between foundational science and impactful technology.",
     ],
   },
   theShift: {
-    title: "The ChemEonix Approach: From Symptoms to Root Causes",
+    title: "My Approach: From Symptoms to Root Causes",
     correlation: {
       title: "Symptom-Based Solutions",
       description:
@@ -300,7 +303,7 @@ export const landingPageData = {
     causation: {
       title: "First-Principles Solutions",
       description:
-        "Identifies and solves the fundamental, root cause of a problem. This is the key to unlocking true innovation and building breakthrough ventures.",
+        "Identifies and solves the fundamental, root cause of a problem. This is the key to unlocking true innovation and building breakthrough technologies.",
       icon: "BrainCircuit",
     },
   },
@@ -308,12 +311,12 @@ export const landingPageData = {
     headline: "The future is built on foundational science.",
     subhead:
       "The next leap forward is not about a single technology, but about a deeper, more integrated approach to problem-solving.",
-    body: "My work is focused on building ventures that leverage a deep, scientific understanding to create the right solution for the right problem. This means being technology-agnostic—whether the answer is a novel algorithm, a new piece of hardware, or a smarter process. By integrating deep domain knowledge with rigorous engineering, we can create solutions that are not just intelligent, but truly insightful.",
+    body: "My work is focused on leveraging a deep, scientific understanding to create the right solution for the right problem. This means being technology-agnostic—whether the answer is a novel algorithm, a new piece of hardware, or a smarter process. By integrating deep domain knowledge with rigorous engineering, we can create solutions that are not just intelligent, but truly insightful.",
   },
   impact: {
     title: "Potential for Impact",
     description:
-      "This approach is aimed at developing ventures that can create a tangible, positive impact on some of humanity's biggest challenges.",
+      "This approach can create a tangible, positive impact on some of humanity's biggest challenges.",
     areas: [
       {
         title: "Sustainable Agriculture",
@@ -335,16 +338,16 @@ export const landingPageData = {
     ],
   },
   connect: {
-    title: "Let's Build the Future.",
+    title: "Let's Connect",
     description:
-      "The initial venture proposals and MVPs are currently under development. I'm passionate about solving these types of challenges and am actively seeking opportunities to apply this vision. If my work resonates with you, I'd be excited to discuss how I can contribute to your team or how you can join mine.",
+      "I am passionate about solving these types of challenges and am actively seeking opportunities to apply my skills and vision. If my work resonates with you, I would be excited to discuss how I can contribute to your team.",
     primaryCta: {
-      text: "View My Work",
+      text: "View My Resume",
       href: "/portfolio",
     },
     secondaryCta: {
-      text: "Collaborate With Me",
-      href: "mailto:travis@chemeonix.com",
+      text: "Contact Me",
+      href: "mailto:mitchell.travis@gmail.com",
     },
   },
 };
