@@ -15,7 +15,7 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title:
     "Travis B. Mitchell — Ph.D. Chemist & Software/AI Engineer | Open to Roles",
   description:
