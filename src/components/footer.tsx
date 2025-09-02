@@ -1,5 +1,4 @@
 // File: src/components/footer.tsx
-
 "use client";
 
 import { portfolioData } from "@/lib/data";
@@ -13,12 +12,12 @@ export const Footer = () => {
           &copy; {currentYear} {portfolioData.company}. All rights reserved.
         </p>
         <p className="text-sm text-muted-foreground">
-          Contact:{" "}
+          General inquiries:{" "}
           <a
-            href={`mailto:${portfolioData.contact.generalInquiries}`}
+            href={`mailto:${portfolioData.contact.email3}`}
             className="hover:text-primary"
           >
-            {portfolioData.contact.generalInquiries}
+            {portfolioData.contact.email3}
           </a>
         </p>
       </div>

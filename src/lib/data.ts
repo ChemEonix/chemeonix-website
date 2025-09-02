@@ -1,41 +1,43 @@
 // File: src/lib/data.ts
 
 export const portfolioData = {
-  name: "Travis B. Mitchell, Ph.D.",
-  title: "Chemist & Scientific Software Developer",
-  company: "",
+  name: "Travis B. Mitchell",
+  title: "Ph.D. Chemist & Software/AI Engineer",
+  company: "ChemEonix, LLC",
   contact: {
-    email: "mitchell.travis@gmail.com",
+    email1: "mitchell.travis@gmail.com",
+    email2: "travis@chemeonix.com",
+    email3: "hi@chemeonix.com",
     phone: "501.353.4315",
     location: "Los Angeles, CA, USA",
   },
   professionalProfile:
-    "A Ph.D. Chemist and scientific innovator with a proven record of leading projects that apply first-principles thinking, advanced computational methods, and full-stack software development to solve complex scientific and industrial problems. Expertise in architecting automated, high-throughput workflows to accelerate discovery and analysis. A highly collaborative researcher with 18 peer-reviewed publications, adept at working within interdisciplinary teams to advance solutions from concept to deployment.",
+    "Ph.D. Chemist and full-stack engineer applying first-principles thinking across software/AI, computational chemistry, synthesis, and materials R&D. Experienced in production-grade software, AI/ML models, and automated scientific pipelines. Creator of ChemEonix, an independent R&D studio and portfolio where I explore causal approaches to machine learning and deep scientific insights. I am actively seeking a full-time role—whether in software/AI engineering, computational chemistry, synthesis/materials, or adjacent R&D—while remaining open to collaborations. Author of 18 peer-reviewed publications; strong scientific and technical communication, and cross-disciplinary teamwork.",
   coreCompetencies: [
     {
       title: "Project Management & Leadership",
       description:
-        "Experience leading projects from conceptualization to deployment, including architecture design, development, and team mentorship. Led development and design efforts at SparkAI and Reveel.",
+        "Experience leading projects from conceptualization to deployment, including architecture design, development, and mentorship. Built and delivered production-ready platforms at SparkAI, Reveel, and ChemEonix.",
     },
     {
       title: "First-Principles Problem-Solving",
       description:
-        "Demonstrated ability to deconstruct complex challenges to their fundamental principles and design novel software, hardware, or process-based solutions.",
+        "Deconstruct complex challenges to their scientific and engineering fundamentals and design novel solutions across software, chemistry, and process domains.",
     },
     {
-      title: "Computational Workflow Architecture",
+      title: "Venture Conception & Strategy",
       description:
-        "Expertise in designing and building scalable, automated pipelines for high-throughput computational science, from data generation to analysis.",
+        "Identify high-value problems and translate deep scientific insights into strategic, fundable concepts and roadmaps.",
     },
     {
       title: "Rapid Skill Acquisition",
       description:
-        "Proven ability to self-teach and master complex new domains as required, from full-stack web development to the foundational science behind a venture.",
+        "Self-teach and master complex domains as needed, from modern full-stack development to quantum chemistry and machine learning.",
     },
     {
       title: "Scientific Communication",
       description:
-        "Expertise in disseminating complex scientific findings through 18 peer-reviewed publications, grant proposals, and presentations.",
+        "18 peer-reviewed publications; experienced writing grant proposals, technical reports, and presenting complex findings clearly.",
     },
   ],
   technicalSkills: [
@@ -73,6 +75,23 @@ export const portfolioData = {
     },
   ],
   workExperience: [
+    {
+      company: "ChemEonix, LLC",
+      role: "Founder & CEO",
+      duration: "January 2025 – Present",
+      description:
+        "Created ChemEonix as an independent R&D studio and portfolio to explore causal ML and first-principles problem-solving across software and the chemical sciences. Architected software pipelines and full-stack systems using FastAPI, Next.js, PostgreSQL, Docker, and Azure. Designed and tested AI/ML methods (PyTorch, scikit-learn) emphasizing causal inference to improve predictive accuracy on small, sparse datasets. Actively open to full-time roles in software/AI, computational chemistry, synthesis/materials R&D, and adjacent domains, as well as collaborations.",
+      skills: [
+        "Full-Stack Development",
+        "AI/ML (PyTorch, scikit-learn)",
+        "Computational Chemistry",
+        "Project Leadership",
+        "Venture Strategy",
+        "FastAPI",
+        "Next.js",
+        "Azure",
+      ],
+    },
     {
       company: "SparkAI",
       role: "Lead Software Engineer",
@@ -225,7 +244,7 @@ export const portfolioData = {
     },
     {
       authors:
-        "Patel, D. G.; Sylvester, E. D.; LeValley, N. R.; Mitchell, T. B.; Benedict, J. B.",
+        "Patel, D. G.; Sylvester, E. D.; LeValley, N. R; Mitchell, T. B.; Benedict, J. B.",
       title:
         "The Structure and Characterization of 3, 4, 5-Triiodo-2-Methylthiophene: An Unexpected Iodination Product of 2-Methylthiophene.",
       journal: "J. Chem. Crystallogr.",
@@ -272,51 +291,46 @@ export const portfolioData = {
   ],
 };
 
-// ===================================================================================
-// JOB APPLICATION LANDING PAGE DATA (This is the new narrative for your site)
-// ===================================================================================
-
 export const landingPageData = {
   hero: {
-    headline: "Travis B. Mitchell, Ph.D.",
+    headline: "Solving Foundational Problems.",
     subhead:
-      "Applying computational science and software engineering to solve complex chemical problems.",
-    cta: "View My Work",
+      "Open to full-time roles across software/AI, computational chemistry, synthesis/materials R&D, and adjacent domains — while continuing ChemEonix as my independent R&D portfolio.",
+    cta: "Explore My Work",
   },
   originStory: {
     headline: "My journey began with atoms.",
     subhead:
       "True innovation comes from understanding a problem at its most fundamental level.",
     body: [
-      "In graduate school, I designed and synthesized photochromic materials and studied their behavior at the atomic level using single-crystal X-ray diffraction and DFT simulations. This deep dive into the fundamental rules governing molecular systems taught me the power of a first-principles approach.",
-      "In my professional work, I've applied that same thinking to build robust, scalable software solutions. My mission is to deconstruct complex challenges to their fundamental principles and then engineer the right solution, bridging the gap between foundational science and impactful technology.",
+      "I designed and synthesized photochromic materials—diarylethenes—and studied their behavior at the atomic level using single-crystal X-ray diffraction and DFT simulations. This taught me the power of a first-principles approach.",
+      "I created ChemEonix as my R&D studio and portfolio to explore causal ML, modern software systems, and venture concepts across science and engineering. Today, I’m looking to bring this mindset directly into a full-time role—whether that’s software/AI, computational chemistry, synthesis/materials, or related R&D—and I remain open to collaborations.",
     ],
   },
   theShift: {
-    title: "My Approach: From Symptoms to Root Causes",
+    title: "From Symptoms to Root Causes",
     correlation: {
       title: "Symptom-Based Solutions",
       description:
-        "Addresses the observable effects of a problem. These solutions can be effective in the short term, but often fail to create a lasting, defensible advantage.",
+        "Address the observable effects of a problem — useful short-term but rarely defensible or scalable.",
       icon: "Link",
     },
     causation: {
       title: "First-Principles Solutions",
       description:
-        "Identifies and solves the fundamental, root cause of a problem. This is the key to unlocking true innovation and building breakthrough technologies.",
+        "Identify and solve the underlying mechanism. This creates durable insight and better engineering decisions.",
       icon: "BrainCircuit",
     },
   },
   theVision: {
-    headline: "The future is built on foundational science.",
-    subhead:
-      "The next leap forward is not about a single technology, but about a deeper, more integrated approach to problem-solving.",
-    body: "My work is focused on leveraging a deep, scientific understanding to create the right solution for the right problem. This means being technology-agnostic—whether the answer is a novel algorithm, a new piece of hardware, or a smarter process. By integrating deep domain knowledge with rigorous engineering, we can create solutions that are not just intelligent, but truly insightful.",
+    headline: "First principles meet practical engineering.",
+    subhead: "Technology-agnostic, evidence-driven, production-minded.",
+    body: "I apply first-principles reasoning across software and the chemical sciences to build the right solution for the problem at hand—be it a robust web platform, an ML pipeline, a computational chemistry workflow, or a lab-ready process. My goal is to deliver systems that are insightful, testable, and scalable within a team.",
   },
   impact: {
-    title: "Potential for Impact",
+    title: "Areas of Impact",
     description:
-      "This approach can create a tangible, positive impact on some of humanity's biggest challenges.",
+      "Mechanism-aware work that transfers across multiple industries.",
     areas: [
       {
         title: "Sustainable Agriculture",
@@ -338,15 +352,17 @@ export const landingPageData = {
     ],
   },
   connect: {
-    title: "Let's Connect",
+    title: "Let’s Build Together.",
     description:
-      "I am passionate about solving these types of challenges and am actively seeking opportunities to apply my skills and vision. If my work resonates with you, I would be excited to discuss how I can contribute to your team.",
-    primaryCta: {
-      text: "View My Resume",
-      href: "/portfolio",
-    },
+      "I’m open to full-time opportunities across software/AI, computational chemistry, synthesis/materials R&D, and adjacent domains—and I’m also open to collaborations for longer-term innovation. If my work resonates, let’s talk.",
+    contactOptions: [
+      { label: "Employment opportunities", email: "mitchell.travis@gmail.com" },
+      { label: "Collaborations & partnerships", email: "travis@chemeonix.com" },
+      { label: "General inquiries", email: "hi@chemeonix.com" },
+    ],
+    primaryCta: { text: "View Portfolio", href: "/portfolio" },
     secondaryCta: {
-      text: "Contact Me",
+      text: "Contact Travis",
       href: "mailto:mitchell.travis@gmail.com",
     },
   },

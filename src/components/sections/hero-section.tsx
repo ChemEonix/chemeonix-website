@@ -1,9 +1,10 @@
+// File: hero-section.tsx
 "use client";
 
 import { portfolioData } from "@/lib/data";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
-import { Mail, Download } from "lucide-react";
+import { Mail, Download, Users } from "lucide-react";
 
 export const HeroSection = () => {
   return (
@@ -20,22 +21,34 @@ export const HeroSection = () => {
           {portfolioData.title}
         </p>
         <p className="max-w-3xl mx-auto text-muted-foreground mb-8">
-          Bridging atoms and bits to engineer the future of scientific software.
+          Bridging atoms and bits to engineer the future of scientific software
+          and the chemical sciences.
         </p>
-        <div className="flex justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-4">
           <Button asChild>
             <a
-              href={`mailto:${portfolioData.contact.email}`}
+              href={`mailto:${portfolioData.contact.email1}`}
               className="flex items-center gap-2"
             >
               <Mail className="h-4 w-4" />
-              Contact Me
+              Contact for Roles
             </a>
           </Button>
-          <Button variant="secondary" disabled>
-            <Download className="mr-2 h-4 w-4" />
-            Download CV (Soon)
+          <Button asChild variant="secondary">
+            <a
+              href={`mailto:${portfolioData.contact.email2}`}
+              className="flex items-center gap-2"
+            >
+              <Users className="h-4 w-4" />
+              Collaborate
+            </a>
           </Button>
+          {/* <Button asChild variant="outline" disabled>
+            <a href="/resume.pdf">
+              <Download className="mr-2 h-4 w-4" />
+              Résumé
+            </a>
+          </Button> */}
         </div>
       </motion.div>
     </section>
