@@ -3,16 +3,16 @@
 export const portfolioData = {
   name: "Travis B. Mitchell",
   title: "Ph.D. Chemist & Software/AI Engineer",
-  company: "ChemEonix, LLC",
+  company: "Iambic Therapeutics", // Updated to your actual employer
   contact: {
     email1: "mitchell.travis@gmail.com",
     email2: "travis@chemeonix.com",
     email3: "hi@chemeonix.com",
     phone: "501.353.4315",
-    location: "Los Angeles, CA, USA",
+    location: "San Diego, CA, USA", // Updated to your current location
   },
   professionalProfile:
-    "Ph.D. Chemist and full-stack engineer applying first-principles thinking across software/AI, computational chemistry, synthesis, and materials R&D. Experienced in production-grade software, AI/ML models, and automated scientific pipelines. Creator of ChemEonix, an independent R&D studio and portfolio where I explore causal approaches to machine learning and deep scientific insights. I am actively seeking a full-time role—whether in software/AI engineering, computational chemistry, synthesis/materials, or adjacent R&D—while remaining open to collaborations. Author of 18 peer-reviewed publications; strong scientific and technical communication, and cross-disciplinary teamwork.",
+    "Ph.D. Chemist and full-stack engineer applying first-principles thinking across software/AI, computational chemistry, synthesis, and materials R&D. Experienced in production-grade software, AI/ML models, and automated scientific pipelines. Creator of ChemEonix, an independent R&D studio where I explore causal approaches to machine learning and deep scientific insights. I currently work as a Software Engineer II at Iambic Therapeutics, contributing to next-generation drug discovery platforms.",
   coreCompetencies: [
     {
       title: "Project Management & Leadership",
@@ -75,6 +75,14 @@ export const portfolioData = {
     },
   ],
   workExperience: [
+    {
+      company: "Iambic Therapeutics",
+      role: "Software Engineer II",
+      duration: "November 2025 - Present",
+      description:
+        "Developing scientific software infrastructure and computational tools to accelerate AI-driven drug discovery.",
+      skills: ["Python", "Scientific Computing", "Software Architecture"],
+    },
     {
       company: "SparkAI",
       role: "Lead Software Engineer",
@@ -278,7 +286,7 @@ export const landingPageData = {
   hero: {
     headline: "Solving Foundational Problems.",
     subhead:
-      "Open to full-time roles across software/AI, computational chemistry, synthesis/materials R&D, and adjacent domains — while continuing ChemEonix as my independent R&D portfolio.",
+      "Ph.D. Chemist & Software Engineer. Software Engineer II at Iambic Therapeutics. ChemEonix serves as my independent R&D portfolio.",
     cta: "Explore My Work",
   },
   originStory: {
@@ -287,7 +295,7 @@ export const landingPageData = {
       "True innovation comes from understanding a problem at its most fundamental level.",
     body: [
       "I designed and synthesized photochromic materials—diarylethenes—and studied their behavior at the atomic level using single-crystal X-ray diffraction and DFT simulations. This taught me the power of a first-principles approach.",
-      "I created ChemEonix as my R&D studio and portfolio to explore causal ML, modern software systems, and venture concepts across science and engineering. Today, I’m looking to bring this mindset directly into a full-time role—whether that’s software/AI, computational chemistry, synthesis/materials, or related R&D—and I remain open to collaborations.",
+      "I created ChemEonix as my R&D studio and portfolio to explore causal ML, modern software systems, and venture concepts across science and engineering. Today, I apply this first-principles mindset at Iambic Therapeutics, where I contribute to building the future of AI-driven drug discovery.",
     ],
   },
   theShift: {
@@ -335,13 +343,12 @@ export const landingPageData = {
     ],
   },
   connect: {
-    title: "Let’s Build Together.",
+    title: "Let’s Connect.",
     description:
-      "I’m open to full-time opportunities across software/AI, computational chemistry, synthesis/materials R&D, and adjacent domains—and I’m also open to collaborations for longer-term innovation. If my work resonates, let’s talk.",
+      "My work focuses on the intersection of chemistry, computation, and engineering. I am always open to connecting with fellow researchers and engineers.",
     contactOptions: [
-      { label: "Employment opportunities", email: "mitchell.travis@gmail.com" },
-      { label: "Collaborations & partnerships", email: "travis@chemeonix.com" },
-      { label: "General inquiries", email: "hi@chemeonix.com" },
+      { label: "General inquiries", email: "mitchell.travis@gmail.com" },
+      { label: "Collaborations", email: "travis@chemeonix.com" },
     ],
     primaryCta: { text: "View Portfolio", href: "/portfolio" },
     secondaryCta: {
