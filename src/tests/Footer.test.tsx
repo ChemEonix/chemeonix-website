@@ -8,7 +8,7 @@ describe("Footer", () => {
   it("renders the copyright notice with the current year", () => {
     render(<Footer />);
     const currentYear = new Date().getFullYear();
-    const copyrightText = `© ${currentYear} ${portfolioData.company}. All rights reserved.`;
+    const copyrightText = `© ${currentYear} ${portfolioData.name}. All rights reserved.`;
     expect(screen.getByText(copyrightText)).toBeInTheDocument();
   });
 });
