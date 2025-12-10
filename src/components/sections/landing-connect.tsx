@@ -1,4 +1,5 @@
-// File: landing-connect.tsx
+// File: src/components/sections/landing-connect.tsx
+
 "use client";
 import { landingPageData } from "@/lib/data";
 import { motion } from "motion/react";
@@ -24,12 +25,12 @@ export const LandingConnect = () => {
         <p className="text-lg text-muted-foreground mb-8">{description}</p>
 
         {contactOptions?.length ? (
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
             {contactOptions.map((opt) => (
               <a
                 key={opt.email}
                 href={`mailto:${opt.email}`}
-                className="block rounded-lg border bg-background hover:bg-accent transition-colors p-4"
+                className="block min-w-[200px] rounded-lg border bg-background hover:bg-accent transition-colors p-4 text-center"
               >
                 <p className="text-sm font-medium text-foreground">
                   {opt.label}

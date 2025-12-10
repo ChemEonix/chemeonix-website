@@ -3,13 +3,13 @@
 export const portfolioData = {
   name: "Travis B. Mitchell",
   title: "Ph.D. Chemist & Software/AI Engineer",
-  company: "Iambic Therapeutics", // Updated to your actual employer
+  company: "Iambic Therapeutics",
   contact: {
     email1: "mitchell.travis@gmail.com",
     email2: "travis@chemeonix.com",
     email3: "hi@chemeonix.com",
     phone: "501.353.4315",
-    location: "San Diego, CA, USA", // Updated to your current location
+    location: "San Diego, CA, USA",
   },
   professionalProfile:
     "Ph.D. Chemist and full-stack engineer applying first-principles thinking across software/AI, computational chemistry, synthesis, and materials R&D. Experienced in production-grade software, AI/ML models, and automated scientific pipelines. Creator of ChemEonix, an independent R&D studio where I explore causal approaches to machine learning and deep scientific insights. I currently work as a Software Engineer II at Iambic Therapeutics, contributing to next-generation drug discovery platforms.",
